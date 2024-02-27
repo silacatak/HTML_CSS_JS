@@ -1,0 +1,40 @@
+
+JQuery fonksiyonları ile
+1. Hide ()
+2.Show()
+3.Toggle()
+
+
+Hide ->belirtilen öğeyi silmek için kullanılır.
+
+Syntax :
+$(selector).hide(speed,callback);
+
+
+örnek:
+
+$(document).ready(function(){
+    $(".buton").click(function(){
+        $(".olay").hide(5000)  //hide("slow") ya da hide("fast")  slow->600ms fast->200ms  1000 milisaniye 1 saniye dir
+    });
+});
+
+
+
+show -> gizli öğeyi göstermek için kullanılır.
+
+Syntax:
+$(selector).show(speed,callback);
+
+$document.ready(function(){
+    $(".btn").click(function(){
+        $(".window").show();
+    });
+});
+
+
+toggle -> bu fonksiyon show ve hide fonksiyonlarının birleşimidir.
+
+syntax:
+$(selector).toggle(speed,callback);
+

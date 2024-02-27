@@ -1,0 +1,5 @@
+background: no-repeat center/cover url('https://images.pexels.com/photos/2749481/pexels-photo-2749481.jpeg');
+ile arka plan resmi belirlenir. Resim, tekrar etmez (no-repeat), merkezlenir (center), kaplamalıdır (cover) ve verilen URL'den alınır.
+
+position: absolute;
+ile arka plan resminin konumunu belirler. Diğer öğelerin üzerine binmesine izin verilir.

@@ -1,0 +1,24 @@
+display: flex: Bu satır, bir elementin içindeki diğer elementleri bir dizi olarak hizalamak için kullanılan Flexbox modelini etkinleştirir.
+ Flexbox, elementleri düzenlemek ve hizalamak için esnek bir yapı sunar.
+
+align-items: center: Bu satır, flex konteyneri içindeki elemanları dikey eksende (y ekseni) hizalamak için kullanılır. 
+"center" değeri, elemanların dikey eksende ortalandığını belirtir.
+
+justify-content: center: Bu satır, flex konteyneri içindeki elemanları yatay eksende (x ekseni) hizalamak için kullanılır.
+ "center" değeri, elemanların yatay eksende ortalandığını belirtir.
+
+height: 100vh: Bu satır, elementin yüksekliğini belirler. "100vh" değeri, viewport yüksekliğinin (%100) değerine eşittir. 
+Bu, elementin ekranın tamamını kaplamasını sağlar.
+
+
+vh: viewport yüksekliği anlamına gelir. Ekranın yüksekliğinin belirli bir yüzdesini temsil eder.
+vw: viewport genişliği anlamına gelir. Ekranın genişliğinin belirli bir yüzdesini temsil eder.
+
+
+"align-items"ve "jsutify-content" kullanabilmek için display in ilk ayarlanması gerekir
+
+.container {
+  display: flex; /* Flex konteyneri olarak ayarla */
+  align-items: center; /* Öğeleri dikey olarak hizala */
+  justify-content: space-between; /* Öğeleri yatayda dağıt */
+}

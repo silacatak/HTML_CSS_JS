@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto-Condensed', 'Times New Roman', Times, serif;
+    background-color: rgb(200, 248, 248);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.btn{
+    background-color: rgba(245, 168, 145, 0.8);
+    border:none;
+    border-radius: 10px;
+    color:black;
+    font-weight: bold;
+    font-family: inherit;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+    text-transform:uppercase;
+    cursor:pointer;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn:focus{
+    outline:none;
+
+}

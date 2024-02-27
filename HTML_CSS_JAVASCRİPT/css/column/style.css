@@ -1,0 +1,15 @@
+/* 
+column-count: 3 = sütünları 3 sütün olucak şekilde ayarlar.
+column-width: 300px = genişlik 300px olıucak şekilde ayarlar.
+columns: 4 300px; 4 sütün olsun ama 300 px altına düşmesin
+*/
+
+.text{
+    column-width: 200px;
+    /*column-rule-style: dotted;
+    column-rule-color: brown;
+    column-rule-width: 4px;*/
+    column-rule: solid 8px red ;
+    column-gap: 40px; /*aralarında ki mesafeyi ayarlar*/
+    line-height: 140% /*satır yüksekliği*/
+}

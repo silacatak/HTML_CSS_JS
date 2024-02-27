@@ -1,0 +1,9 @@
+box-shadow: offset-x offset-y blur-radius spread-radius color inset;
+
+"blur-radius" (isteğe bağlı): Gölgenin bulanıklık yarıçapını belirtir.
+
+"spread-radius" (isteğe bağlı): Gölgenin yayılma miktarını belirtir. Pozitif değerler gölgenin genişlediği, negatif değerler ise gölgenin daraldığı anlamına gelir.
+
+inset--> eğer kullanılırsa gölge içe doğru olur.
+
+x ve y de negatif değerler kullanılırsa sol veya yukarı doğru,pozitif değerler kullanılırsa sağa ve aşağı doğru kullanılmıştır.
