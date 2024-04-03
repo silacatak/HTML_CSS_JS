@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet kısayolları</title>
+</head>
+<body>
+
+    <!--div+div>p>span+em^bq-->
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+        <blockquote></blockquote>
+    </div>
+
+    <!--div+div>p>span+em^^bq-->
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+    </div>
+    <blockquote></blockquote>
+
+
+    <!--div>(header>ul>li*2>a)+footer>p-->
+    <div>
+        <header>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </header>
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+
+    <!--div>header>ul>li*2>a^^^footer>p-->
+    <div>
+        <header>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </header>
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+
+    <!--h$[title=item$]{Header $}*3-->
+    <h1 title="item1">header1</h1>
+    <h2 title="item2">header2</h2>
+    <h3 title="item3">header3</h3>
+
+    <!--ul>.item$@3*5-->
+    <ul>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+        <li class="item6"></li>
+        <li class="item7"></li>
+    </ul>
+</body>
+</html>
